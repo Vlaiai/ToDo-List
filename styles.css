@@ -1,0 +1,173 @@
+body {
+  background-color: #131F24;
+  font-family: sans-serif; 
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+.title{
+  /* margin-left: 12px; */
+  margin-bottom: 24px;
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(241, 247, 251);
+}
+.container{
+  padding-top: 24px;
+  margin-left: 24px;
+  /* display: flex; */
+}
+
+/* .layout{ */
+  /* display: inline-flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+/* } */
+.bar {
+  /* display: flex; */
+  position: relative;
+  width: 500px;
+  height: 60px;
+  background-color: #37464F;
+  border-radius: 30px;
+  overflow: hidden
+}
+
+.barProgress {
+  height: 100%;
+  width: 0%;
+  background-color: rgb(255, 199, 0);
+  /* transition: all 1s; */
+  /* border-radius: 30px; */
+}
+
+.percent {
+  /* color: rgb(175, 175, 175); */
+  color: rgb(205, 121, 0);
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font: bold 36px "Quicksand", sans-serif;
+}
+
+
+.addButton{
+  /* display: block; */
+  /* margin-left: 10px; */
+  align-self: flex-end;
+  margin-top: 12px;
+  width: 68px;
+  height: 68px;
+  border-radius: 50px;
+  background-color: #49C0F8;
+  border: none;
+  font: bold 24px "Quicksand", sans-serif;
+  color: #ffff;
+  transition: background-color 0.05s;
+  cursor: pointer;
+}
+/* .addButton:active{
+  background-color: rgb(24, 153, 214);
+} */
+
+
+.formdiv{
+  margin-top: 30px;
+  /* display: inline-flex; */
+  /* flex-direction: column; */
+}
+
+.input-class{
+  caret-color: rgb(73, 192, 248);
+  width: 271px;
+  padding-left: 12px;
+  padding-right: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color:rgb(32, 47, 54);
+    
+  border: 2px solid rgb(55, 70, 79) ;
+  color:rgb(241, 247, 251);
+  cursor: text;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.input-class:focus{
+  border: 2px solid rgb(73, 192, 248);
+  background-color: rgb(19, 31, 36);
+  /* background-color: rgb(32, 47, 54); */
+  outline: none;
+}
+.input-button{
+  margin-top: 12px;
+  margin-left: 8px;
+  width: 100px;
+  height: 46px;
+  background-color: rgb(73, 192, 248);
+  color: color rgb(19, 31, 36);
+  border: none;
+  font-size: 17px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.15s;
+  align-self: flex-end;
+}
+.input-button:hover, .addButton:hover{
+  background-color:#73D1FF ;
+}
+.input-button:active, .addButton:active {
+  background-color: rgb(24, 153, 214);
+  border-color: rgb(63, 133, 167);
+}
+
+
+
+/* LIST LAYOUT */
+.list{
+  margin-top: 50px;
+}
+ul{
+  padding-left: 0;
+}
+.list-item{
+  color: rgb(241, 247, 251);
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+.item-date{
+  color:rgb(241, 247, 251);
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.item-info-container{
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 460px;
+  padding: 8px 24px 8px 16px;
+
+
+  border: 2px solid rgb(55, 70, 79);
+  border-radius: 16px;
+  background-color: rgb(19, 31, 36);
+}
+
+.item-text{
+  margin: 0;
+}
+.time-amount{
+  color: rgb(255, 171, 51);
+  font-weight: 700;
+}
+.create-time{
+  color:rgb(220, 230, 236);
+}
